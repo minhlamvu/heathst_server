@@ -44,7 +44,7 @@ async function fetchTelemetryData(deviceId) {
       {
         method: "GET",
         headers: {
-          Authorizati on: `Bearer ${JWT_TOKEN}`,
+          Authorization: `Bearer ${JWT_TOKEN}`,
           "Content-Type": "application/json",
         },
       }
